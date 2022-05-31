@@ -1,7 +1,8 @@
 package com.lojagames.Loja.Games.model;
-
+@Entity
 public class usuarioLogin {
-private Long id;
+	@Id
+	private Long id;
 	
 	private String nome;
 	
